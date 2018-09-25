@@ -57,6 +57,9 @@ Como se puede operar entre números mediante las operaciones de suma, resta, etc
 
 
 Algunos ejemplos:
+
 a and b  || 	El resultado es True solamente si a es True y b es True de lo contrario el resultado es False
+
 a or b  ||	 El resultado es True si a es True o b es True de lo contrario el resultado es False
+
 not a	 ||  El resultado es True si a es False de lo contrario el resultado es False
