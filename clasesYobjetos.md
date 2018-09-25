@@ -30,16 +30,16 @@ Esto significa que hemos creado un nuevo objeto jorge del tipo Person. Date cuen
 
 Los atributos son como propiedades que queremos añadir a la clase (tipo). Por ejemplo, para nuestra clase *Person*, vamos a añadir dos atributos: name y school, tal que así:
 
-![imagen en Markdown](images/atributosA.jpg)
+![imagen en Markdown](images/atributosA.png)
 
 Ahora, vamos a crear un nuevo objeto del tipo *Person* con más detalle, completando estos atributos que acabamos de añadir:
 
-![imagen en Markdown](images/atributosB.jpg)
+![imagen en Markdown](images/atributosB.png)
 
 ## Métodos ##
 Los métodos son cómo funciones en **Python**, ya que se definen con la palabra clave def y cuentan con el mismo formato que las funciones. En nuestra clase, vamos a definir un método que imprima el nombre (name) y la escuela (school) de una persona (*Person*). La clase se verá de la siguiente manera:
 
-![imagen en Markdown](images/métodos.jpg)
+![imagen en Markdown](images/métodos.png)
 
 ## Inicialización ##
 
@@ -49,4 +49,4 @@ En la sección anterior, hemos inicializado name y school, dándoles un valor va
 Vamos a modificar el programa anterior para utilizar el inicializador. En este caso, el programa se verá como sigue:
 
 
-![imagen en Markdown](images/Inicialización.jpg)
+![imagen en Markdown](images/Inicialización.png)
