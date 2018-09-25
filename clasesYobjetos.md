@@ -4,10 +4,7 @@
 
  ## ¿Cómo crearíamos una clase en Python? ##
 
- `class ClassName:
-
-    statements__
-`
+![imagen en Markdown](images/clase.png)
 
 la definición de una clase comienza con la palabra clave __class__, y *className* sería el nombre de la clase (identificador). Ten en cuenta que el nombre de la clase sigue las mismas reglas que los nombres de variables en Python, es decir, sólo pueden comenzar con una letra o un subrayado , y sólo pueden contener letras, números o guiones bajos.
 
@@ -15,14 +12,11 @@ la definición de una clase comienza con la palabra clave __class__, y *classNam
 
 La sentencia pass no hace nada. Puede ser utilizada cuando se requiere una sentencia sintácticamente pero programa no requiere acción alguna.
 
-`class Person:
-
-    pass__
-    `
+![imagen en Markdown](images/clasePerson.png)
 
 Para crear una instancia (objeto) de esta clase, haremos lo siguiente:
 
-jorge =  *Person()*
+![imagen en Markdown](images/instanciaJorge.png)
 
 Esto significa que hemos creado un nuevo objeto jorge del tipo Person. Date cuenta que para crear un objeto solo debemos escribir el nombre de la clase, seguido de unos paréntesis.
 
