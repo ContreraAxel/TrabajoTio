@@ -4,14 +4,60 @@
 
  ## ¿Cómo crearíamos una clase en Python? ##
 
- class ClassName:
-    statements
+ `class ClassName:
 
-la definición de una clase comienza con la palabra clave _class_, y **className** sería el nombre de la clase (identificador). Ten en cuenta que el nombre de la clase sigue las mismas reglas que los nombres de variables en Python, es decir, sólo pueden comenzar con una letra o un subrayado , y sólo pueden contener letras, números o guiones bajos.
+    statements__
+`
 
--Ahora vamos a definir una _class_ Person (persona), que por el momento no contendrá nada, excepto la declaración de pass. Según la documentación de Python:
+la definición de una clase comienza con la palabra clave __class__, y *className* sería el nombre de la clase (identificador). Ten en cuenta que el nombre de la clase sigue las mismas reglas que los nombres de variables en Python, es decir, sólo pueden comenzar con una letra o un subrayado , y sólo pueden contener letras, números o guiones bajos.
 
-La sentencia _pass_ no hace nada. Puede ser utilizada cuando se requiere una sentencia sintácticamente pero programa no requiere acción alguna.
+-Ahora vamos a definir una __class__ *Person (persona)*, que por el momento no contendrá nada, excepto la declaración de pass. Según la documentación de Python:
 
-_class Person:
-    pass_
+La sentencia pass no hace nada. Puede ser utilizada cuando se requiere una sentencia sintácticamente pero programa no requiere acción alguna.
+
+`class Person:
+
+    pass__
+    `
+
+Para crear una instancia (objeto) de esta clase, haremos lo siguiente:
+
+jorge =  *Person()*
+
+Esto significa que hemos creado un nuevo objeto jorge del tipo Person. Date cuenta que para crear un objeto solo debemos escribir el nombre de la clase, seguido de unos paréntesis.
+
+## Atributos ##
+
+Los atributos son como propiedades que queremos añadir a la clase (tipo). Por ejemplo, para nuestra clase *Person*, vamos a añadir dos atributos: name y school, tal que así:
+
+`class Person:
+
+    name = ''
+
+    school = ''
+`
+Ahora, vamos a crear un nuevo objeto del tipo *Person* con más detalle, completando estos atributos que acabamos de añadir:
+
+`jorge = Person()
+abder.name = 'Jorge'
+abder.school = 'Universidad de la vida'`
+
+## Métodos ##
+Los métodos son cómo funciones en **Python**, ya que se definen con la palabra clave def y cuentan con el mismo formato que las funciones. En nuestra clase, vamos a definir un método que imprima el nombre (name) y la escuela (school) de una persona (*Person*). La clase se verá de la siguiente manera:
+
+`class Person:
+    name = ''
+    school = ''
+
+    def print_name(self):
+        print self.name
+
+    def print_school(self):
+        print self.school
+
+jorge = Person()
+jorge.name = 'Jorge'
+jorge.school = 'Universidad de la vida'
+jorge.print_name()
+jorge.print_school()
+`
