@@ -30,25 +30,23 @@ Esto significa que hemos creado un nuevo objeto jorge del tipo Person. Date cuen
 
 Los atributos son como propiedades que queremos añadir a la clase (tipo). Por ejemplo, para nuestra clase *Person*, vamos a añadir dos atributos: name y school, tal que así:
 
-`class Person:
+` class Person:
 
     name = ''
 
-    school = ''
-`
+    school = '' `
 Ahora, vamos a crear un nuevo objeto del tipo *Person* con más detalle, completando estos atributos que acabamos de añadir:
 
-`jorge = Person()
+` jorge = Person()
 
 abder.name = 'Jorge'
 
-abder.school = 'Universidad de la vida'
-`
+abder.school = 'Universidad de la vida' `
 
 ## Métodos ##
 Los métodos son cómo funciones en **Python**, ya que se definen con la palabra clave def y cuentan con el mismo formato que las funciones. En nuestra clase, vamos a definir un método que imprima el nombre (name) y la escuela (school) de una persona (*Person*). La clase se verá de la siguiente manera:
 
-`class Person:
+` class Person:
 
     name = ''
 
@@ -64,8 +62,7 @@ jorge = Person()
 jorge.name = 'Jorge'
 jorge.school = 'Universidad de la vida'
 jorge.print_name()
-jorge.print_school()
-`
+jorge.print_school() `
 
 ## Inicialización ##
 
@@ -76,13 +73,18 @@ Vamos a modificar el programa anterior para utilizar el inicializador. En este c
 
 
 ` class Person:
+
     def __init__(self, n, s):
         self.name = n
         self.school = s
+
     def print_name(self):
         print self.name
+
     def print_school(self):
         print self.school
+
 jorge = Person('Jorge', 'Universidad de la vida')
+
 jorge.print_name()
 jorge.print_school() `
