@@ -1,3 +1,3 @@
-# Impresion de pantalla en Python
+# Impresion por pantalla en Python
 
-## La libreria estandar de Python no permite capturar pantalla, pero con librerias externas si podemos! 
+### Para imprimir por pantalla vamos a usar la funcion **Print("_Texto a mostrar_")**
