@@ -9,13 +9,13 @@ Para objeter el largo de una cadena lo unico que tenemos que hacer es poner "Len
 Para recorrer todo los caracteres de una cadena:
 for x in "texto ":
 
-     print x
+print x
 
 t e x t o
 
 Para acceder a una pocicion de una cadena:
 i = "Texto"
 
-i[1]
+i = [1]
 
 da como resultado: "e"
