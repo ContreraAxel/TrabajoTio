@@ -34,10 +34,15 @@ Ademas de los numeros y textos, Python introduce las constantes true y false
 Algunas de sus expresiones son:
 
 a == b ||	a es igual a b
+
 a != b ||	a es distinto de b
+
 a < b	|| a es menor que b
+
 a <= b ||	a es menor o igual que b
+
 a > b	|| a es mayor que b
+
 a >= b ||	a es mayor o igual que b
 
 ## Operadores logicos ##
