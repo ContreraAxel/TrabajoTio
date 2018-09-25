@@ -1,9 +1,8 @@
 # Funciones en Python #
 
-La definición de funciones se realiza mediante la instrucción **def** más un nombre de función descriptivo, seguido de paréntesis de apertura y cierre donde iran los parametros (De lo cual hablaremos mas adelante). Como toda estructura de control en Python, la definición de la función finaliza con dos puntos (:).
+La definición de funciones se realiza mediante la instrucción **def** más un nombre de función descriptivo, seguido de paréntesis de apertura y cierre donde iran los **parametros** (De lo cual hablaremos mas adelante). Como toda estructura de control en Python, la definición de la función finaliza con dos puntos (:).
 
-Una función hasta no ser llamada no sera ejecutada. Para eso, simplemente se la llama por su nombre:
-
+Una función hasta no ser llamada **no sera ejecutada**. Para eso, simplemente se la llama por su nombre:
 
 Un parámetro es un valor que la función espera recibir cuando sea llamada, para ejecutar acciones en base al mismo. Una función puede recibir uno o más parámetros (que irán separados por una coma) o ninguno.
 
