@@ -74,18 +74,15 @@ En la sección anterior, hemos inicializado name y school, dándoles un valor va
 
 Vamos a modificar el programa anterior para utilizar el inicializador. En este caso, el programa se verá como sigue:
 
-`class Person:
 
+` class Person:
     def __init__(self, n, s):
         self.name = n
         self.school = s
-
     def print_name(self):
         print self.name
-
     def print_school(self):
         print self.school
-
 jorge = Person('Jorge', 'Universidad de la vida')
 jorge.print_name()
-jorge.print_school()`
+jorge.print_school() `
